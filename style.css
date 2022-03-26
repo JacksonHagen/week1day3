@@ -1,0 +1,21 @@
+  body .container,
+  body .container-fluid {
+    outline: 2px double solid black;
+    outline-offset: -2px;
+  }
+
+  body .row {
+    outline: 2px solid black;
+    outline-offset: -2px;
+  }
+
+  body [class*="col-"] {
+    outline: 2px solid black;
+    outline-offset: -3px;
+    background-color: aquamarine;
+  }
+
+
+  section{
+    padding: 1em;
+}
